@@ -1,0 +1,18 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only Build.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "@types/prompt-sync": "^4.2.0",
+    "os": "^0.1.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
